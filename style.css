@@ -25,11 +25,30 @@ nav a:hover{
 }
 
 header{
-    width: 100%;
-    height: 600px;
-    background-image: url(perry.jpg);
+    width: 99%;
+    height: 610px;
+    background-image: url(essa.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 10px chocolate;
+    border-bottom: 10px blanchedalmond solid;
+    border-right: 10px blanchedalmond solid;
+    border-top: 10px blanchedalmond solid;
+    border-left: 10px blanchedalmond solid;
 
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 200px;
+}
+
+div img{
+    border-radius: 200%;
+}
+
+footer{
+    align-items: center;
 }
